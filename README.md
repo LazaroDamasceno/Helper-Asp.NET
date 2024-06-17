@@ -32,3 +32,9 @@ public class AppDbContext : DbContext
     }
 }
 ```
+
+## Setting services to depency injection
+
+```
+builder.Services.AddScoped<ISelfRegisterBorrowerService, SelfRegisterBorrowerService>();
+```
