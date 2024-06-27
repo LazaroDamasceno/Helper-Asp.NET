@@ -3,10 +3,7 @@
 ## Adding packages
 
 ```
-Install-Package Microsoft.EntityFrameworkCore;
-Install-Package Microsoft.EntityFrameworkCore.Tools;
-Install-Package Microsoft.EntityFrameworkCore.Design;
-Install-Package Microsoft.EntityFrameworkCore.Sqlite;
+Install-Package Microsoft.EntityFrameworkCore; Install-Package Microsoft.EntityFrameworkCore.Tools; Install-Package Microsoft.EntityFrameworkCore.Design; Install-Package Microsoft.EntityFrameworkCore.Sqlite;
 ```
 
 ## Setting SQLITE and the DbSets
